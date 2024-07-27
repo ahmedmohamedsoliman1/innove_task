@@ -8,7 +8,6 @@ import 'features/series_feature/presentation/home_screen.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
   Dp.setUp();
   runApp(const MyApp());
 }

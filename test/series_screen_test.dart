@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:either_dart/either.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get_it/get_it.dart';
 import 'package:innova_interview/config/dependency_injection/DP.dart';
 import 'package:innova_interview/config/network/api_client.dart';
 import 'package:innova_interview/features/series_feature/data/models/classes_data_model.dart';
@@ -14,7 +15,7 @@ void main () {
   late SeriesRepoImpl seriesRepoImpl ;
 
   setUpAll(() {
-    seriesRepoImpl = SeriesRepoImpl(apiClient: ApiClient(dio: Dio()));
+    seriesRepoImpl = SeriesRepoImpl(apiClient: Dp.getIt());
   });
   group("Test All Series Functions", () {
     test("Test Series Data", () async{

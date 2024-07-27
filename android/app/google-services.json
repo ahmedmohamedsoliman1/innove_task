@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233807695749",
+    "project_id": "innove-interview",
+    "storage_bucket": "innove-interview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233807695749:android:b6453fcd197ee913f97eec",
+        "android_client_info": {
+          "package_name": "com.example.innova_interview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGH3Vftq9szwjQ45bYo-fSX0p28HQ8R80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
